@@ -7,7 +7,7 @@ export default defineConfig({
     host: "0.0.0.0"
   },
   build: {
-    minify: "terser"
+    minify: "esbuild"
   },
   plugins: [react()],
   worker: {
